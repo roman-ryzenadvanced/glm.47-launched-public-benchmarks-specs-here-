@@ -100,8 +100,26 @@ Yes, Zhipu AI offers global API access. It is already integrated into popular to
 
 Don't miss out on the AI Coding Revolution. Get the most powerful model for the lowest price!
 
-🎄 **Xmas Mega Discount:** **50% OFF** first-purchase!
-➕ **Extra 10% OFF** using the invite code below!
+```text
+ ___________________________________________________________
+/                                                           \
+|   🎄 GLM-4.7 CHRISTMAS EXCLUSIVE CODE 🎄                   |
+|  _______________________________________________________  |
+| |                                                       | |
+| |   🎁  50% OFF FIRST PURCHASE                          | |
+| |   🚀  +10% ADDITIONAL STACKABLE DISCOUNT              | |
+| |_______________________________________________________| |
+|                                                           |
+|   INVITE CODE:  R0K78RJKNW                                |
+|   STATUS:       ACTIVE [STRICTLY LIMITED]                 |
+|                                                           |
+\___________________________________________________________/
+          \   ^__^
+           \  (oo)\_______
+              (__)\       )\/\
+                  ||----w |
+                  ||     ||
+```
 
 🔗 **Claim your discount here:** [https://z.ai/subscribe?ic=R0K78RJKNW](https://z.ai/subscribe?ic=R0K78RJKNW)
 🎟️ **Invite Code:** `R0K78RJKNW`

@@ -75,6 +75,8 @@ graph TD
 | **Engineering**| SWE-bench (Ver.) | 73.8% | $\color{green}{\textbf{77.2%}}$ | 76.3% | 73.1% | 76.2% | [Z.ai](https://z.ai/blog/glm-4.7) |
 | **Agentic** | τ²-Bench | 87.4% | 87.2% | 82.7% | 85.3% | $\color{green}{\textbf{90.7%}}$ | [Z.ai](https://z.ai/blog/glm-4.7) |
 
+**📊 Additional Sources:** [HuggingFace Model Card](https://huggingface.co/zai-org/GLM-4.7) | [Ollama Library](https://ollama.com/library/glm-4.7) | [LLM-Stats Analysis](https://llm-stats.com/models/glm-4.7) | [Vertu Comparison](https://vertu.com/lifestyle/glm-4-7-vs-claude-opus-4-5-the-thinking-open-source-challenger/)
+
 ---
 
 ## 🛠️ What is GLM-4.7? Technical Specifications and Features

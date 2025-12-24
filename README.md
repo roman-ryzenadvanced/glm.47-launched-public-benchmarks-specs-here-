@@ -32,16 +32,16 @@ GLM-4.7 demonstrates competitive performance against the newest generation of fl
 graph TD
     subgraph "2025 Flagship Benchmark Comparison"
     M[Math - AIME 25] --> G1{<b>GLM-4.7: 95.7%</b>}
-    M --> C1[Claude Sonnet 4.5: 88.5%]
+    M --> C1[Claude Sonnet 4.5: 87.0%]
     
     CO[Coding - LiveCode] --> G2{<b>GLM-4.7: 84.9%</b>}
-    CO --> C2[Claude Sonnet 4.5: 61.2%]
+    CO --> C2[Claude Sonnet 4.5: 64.0%]
     
     S[Science - GPQA] --> G3{<b>GLM-4.7: 85.7%</b>}
-    S --> C3[Claude Sonnet 4.5: 84.1%]
+    S --> C3[Claude Sonnet 4.5: 83.4%]
     
-    L[Logic - HLE] --> G4{<b>GLM-4.7: 42.8%</b>}
-    L --> C4[Claude Sonnet 4.5: 22.5%]
+    L[Logic - HLE w/Tools] --> G4{<b>GLM-4.7: 42.8%</b>}
+    L --> C4[Claude Sonnet 4.5: 32.0%]
     end
     
     classDef glmNode fill:#00c853,stroke:#1b5e20,stroke-width:3px,color:#ffffff,font-weight:bold,font-size:14px
@@ -53,11 +53,12 @@ graph TD
 
 | Category | Benchmark | **GLM-4.7** | Claude Sonnet 4.5 | GPT-5.1 | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Math** | AIME 25 | **95.7** | 88.5 | 92.4 | [Z.ai Technical Report] |
-| **Coding** | LiveCodeBench | **84.9** | 61.2 | 74.0 | [LiveCodeBench 2025] |
-| **Science** | GPQA | **85.7** | 84.1 | 85.2 | [Official Zhipu AI] |
-| **Logic** | HLE | **42.8** | 22.5 | 32.0 | [Humanity's Last Exam] |
-| **Engineering** | SWE-bench (Verified) | **73.8%** | 68.2% | 71.5% | [SWE-bench 2025] |
+| **Math** | AIME 25 | **95.7** | 87.0 | 94.0 | [Z.ai Tech Report] |
+| **Coding** | LiveCodeBench | **84.9** | 64.0 | 87.0 | [LiveCodeBench v6] |
+| **Science** | GPQA-Diamond | **85.7** | 83.4 | 88.1 | [Official Zhipu AI] |
+| **Logic** | HLE (w/ Tools) | **42.8** | 32.0 | 42.7 | [Humanity's Last Exam] |
+| **Engineering** | SWE-bench (Verified) | **73.8%** | 77.2% | 74.9% | [SWE-bench 2025] |
+| **Agentic** | τ²-Bench | **87.4%** | 87.2% | 82.7% | [Official Z.AI] |
 
 ---
 
@@ -67,7 +68,8 @@ GLM-4.7 is the latest iteration of the General Language Model (GLM) series devel
 
 ### 🚀 Key Technical Highlights
 - **Extended Context Window (200K):** Capable of handling massive codebases in a single prompt, allowing it to "remember" entire file structures better than any previous iteration.
-- **Deep Thinking Mode:** Forced systematic reasoning for high-complexity architectural tasks. It traverses a "Tree of Thoughts" to ensure logic consistency.
+- **Interleaved & Preserved Thinking:** A proprietary reasoning architecture that "thinks" before every response and tool call. **Preserved Thinking** allows the model to retain reasoning blocks across multi-turn conversations, preventing context loss in complex debugging sessions.
+- **Turn-level Thinking Control:** Developers can toggle reasoning on/off per turn—disabling it for speed in simple tasks or enabling it for high-precision logic in architectural decisions.
 - **All-Tools Capabilities:** Autonomously browses the web, executes code, and interprets data to solve complex engineering problems without human hand-holding.
 - **Extreme Efficiency:** Proprietary architecture delivering high inference speeds at a significantly lower cost than current flagship standards like **Claude Sonnet 4.5**.
 
@@ -176,7 +178,8 @@ To ensure transparency and build trust, the data presented in this article is de
 - **AIME 2025 (Math):** Results sourced from the [Official Z.AI Portal](https://z.ai/subscribe?ic=R0K78RJKNW).
 - **LiveCodeBench:** Independent evaluation of coding execution accuracy.
 - **SWE-bench (Verified):** The industry standard for evaluating AI on real-world software engineering issues.
-- **HLE (Humanity's Last Exam):** A high-difficulty reasoning benchmark designed to test the limits of current LLMs.
+- **HLE (Humanity's Last Exam):** A high-difficulty reasoning benchmark where GLM-4.7 (42.8%) significantly outscores Claude Sonnet 4.5 (32.0%).
+- **τ²-Bench:** State-of-the-art evaluation for multi-step tool orchestration in real-world scenarios.
 
 *Note: AI performance metrics are subject to change as models are updated. Users are encouraged to verify latest scores on platforms like [LMSYS Chatbot Arena](https://lmarena.ai/).*
 

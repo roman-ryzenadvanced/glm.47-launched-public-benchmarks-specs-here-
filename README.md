@@ -1,3 +1,15 @@
+## 🎁 Special Christmas Offer
+
+Don't miss out on the AI Coding Revolution. Get the most powerful model for the lowest price!
+
+🎄 **Xmas Mega Discount:** **50% OFF** first-purchase!
+➕ **Extra 10% OFF** using the invite code below!
+
+🔗 **Claim your discount here:** [https://z.ai/subscribe?ic=R0K78RJKNW](https://z.ai/subscribe?ic=R0K78RJKNW)
+🎟️ **Invite Code:** `R0K78RJKNW`
+
+---
+
 # 🚀 GLM-4.7 vs. The $200 Giants: Is China's $3 AI Coding Tool the New Market King?
 
 ```text

@@ -2,10 +2,10 @@
 
 Don't miss out on the AI Coding Revolution. Get the most powerful model for the lowest price!
 
-🎄 **Xmas Mega Discount:** **50% OFF** first-purchase!
-➕ **Extra 10% OFF** using the invite code below!
+🎄 **Xmas mega discount:** **50% OFF** first-purchase!
+➕ **Plus 10% OFF** using the invite code below!
 
-🔗 **Claim your discount here:** [https://z.ai/subscribe?ic=R0K78RJKNW](https://z.ai/subscribe?ic=R0K78RJKNW)
+🔗 **Here is your invite code URL:** [https://z.ai/subscribe?ic=R0K78RJKNW](https://z.ai/subscribe?ic=R0K78RJKNW)
 🎟️ **Invite Code:** `R0K78RJKNW`
 
 ---

@@ -96,34 +96,41 @@ Yes, Zhipu AI offers global API access. It is already integrated into popular to
 
 ---
 
-## � Official Z.AI Ecosystem & Plans
-*Data sourced from the [Official Z.AI Website](https://z.ai/subscribe)*
+## 🌐 Official Z.AI Ecosystem & Technical Specs
+*Data sourced from the [Official Z.AI Website](https://z.ai/subscribe?ic=R0K78RJKNW)*
 
-GLM-4.7 powers a robust ecosystem designed for high-volume agentic workflows. According to the official Z.AI specifications, the following tools and plans are currently supported:
+GLM-4.7 powers a robust ecosystem designed for high-volume agentic workflows. According to official Z.AI technical specifications, the platform delivers elite-tier performance and deep tool integration.
 
-### 🛠️ Supported Coding Tools
-GLM-4.7 is compatible with over 10 leading coding tools and IDEs, including:
-- **Cursor**
-- **Cline**
-- **Claude Code**
-- **Kilo Code**
-- **TRAE (SOLO Agent)**
-- **Roo Code**
-- **OpenCode**
-- **Goose**
+### 📊 Technical Performance (Code Arena Leaderboard)
+As of **2025-12-22**, GLM-4.7 maintains its position as a top-tier contender on the global Code Arena leaderboard:
+- **Claude Opus 4.5**: 1482
+- **GLM-4.7**: 1452 🥇 (Flagship Performance)
+- **GPT 5.2**: 1398
 
-### 💎 Official Subscription Tiers
-| Plan | Price (1st Qtr) | Benefits |
-| :--- | :--- | :--- |
-| **Lite** | **$9** | 3× usage of Claude Pro plan, powered by GLM-4.7 |
-| **Pro** | **$45** | 5× Lite usage, 40-60% faster, includes Vision & Web Search |
-| **Max** | **$90** | 4× Pro usage, guaranteed peak performance, early access |
+### 🛠️ Supported Coding Tools & IDEs
+GLM-4.7 is natively compatible with the most advanced coding environments:
+- **TRAE (SOLO Agent)** - Optimized for real-time tool streaming
+- **Claude Code** - Full documentation support
+- **Cursor** - Seamless workflow integration
+- **Cline** & **Roo Code** - Advanced agentic capabilities
+- **Kilo Code**, **OpenCode**, **Goose**, **Crush**
 
-*All plans include access to flagship model updates and the Z.AI MCP (Model Context Protocol) suite.*
+### 💎 Official Subscription Tiers & Technical Specs
+| Plan | Quarterly Cost | Usage Quota | Advanced Capabilities |
+| :--- | :--- | :--- | :--- |
+| **Lite** | **$9** | **3× Claude Pro** | GLM-4.7 Powered, Same-tier updates |
+| **Pro** | **$45** | **15× Claude Pro equivalent** | 40-60% Faster, Vision Analyze, Web Search |
+| **Max** | **$90** | **60× Claude Pro equivalent** | Peak-hour Guarantee, Early Access, Flagship Updates |
+
+**Additional Technical Features:**
+- **Vision Analyze:** Interpret UI designs and screenshots directly.
+- **Web Search & Reader:** Real-time information retrieval for up-to-date documentation.
+- **Zread MCP:** Enhanced context management via Model Context Protocol.
+- **Cross-Model Compatibility:** Operates on existing code from other models without breaking architectural integrity.
 
 ---
 
-## �🎁 Special Christmas Offer
+## � Special Christmas Offer
 
 Don't miss out on the AI Coding Revolution. Get the most powerful model for the lowest price!
 

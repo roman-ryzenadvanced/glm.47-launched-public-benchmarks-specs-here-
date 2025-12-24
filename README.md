@@ -18,7 +18,7 @@
 
 The global landscape for AI-powered development is shifting. While Western tools like **Cursor Pro** and **GitHub Copilot** have dominated by charging premium subscription rates (often reaching $200 per year), a new contender from Beijing, China, has arrived to dismantle that pricing model.
 
-**Zhipu AI** has released **GLM-4.7**, a large language model specifically engineered for coding, offering performance that rivals top-tier US models. For pricing information, visit [Z.ai subscription page](https://z.ai/subscribe) or use via [OpenRouter](https://openrouter.ai/).
+**Zhipu AI** has released **GLM-4.7**, a large language model specifically engineered for coding, offering performance that rivals top-tier US models. For pricing information, visit [Z.ai subscription page](https://z.ai/subscribe?ic=R0K78RJKNW) or use via [OpenRouter](https://openrouter.ai/).
 
 ---
 
@@ -117,7 +117,7 @@ The market for high-performance, budget-friendly AI has expanded significantly i
 Objectively, **Claude Sonnet 4.5** and **GPT-5.1** currently hold the edge in massive-scale architectural planning and natural language nuance. However, GLM-4.7 has achieved parity or leadership in execution-heavy benchmarks (LiveCodeBench: 84.9) and mathematical reasoning (AIME 25: 95.7). For developers, the choice is often between paying for the absolute peak (Claude/GPT) or achieving 95% of that performance with GLM-4.7 for 1/20th the price.
 
 **How much does the GLM-4.7 coding tool cost?**
-GLM-4.7 is available via the [Z.ai API platform](https://docs.z.ai/guides/llm/glm-4.7) and through [OpenRouter](https://openrouter.ai/). For detailed pricing, visit [Z.ai subscription page](https://z.ai/subscribe).
+GLM-4.7 is available via the [Z.ai API platform](https://docs.z.ai/guides/llm/glm-4.7) and through [OpenRouter](https://openrouter.ai/). For detailed pricing, visit [Z.ai subscription page](https://z.ai/subscribe?ic=R0K78RJKNW).
 
 **Who developed GLM-4.7?**
 GLM-4.7 was developed by **Zhipu AI**, a leading artificial intelligence company based in Beijing, China, emerging from the Knowledge Engineering Group (KEG) at Tsinghua University.
@@ -140,6 +140,7 @@ All data presented in this article is derived from the [Z.ai Official Technical 
 
 ## 🔗 Source Links
 - [Z.ai Tech Report](https://z.ai/blog/glm-4.7)
+- [HuggingFace Model Card](https://huggingface.co/zai-org/GLM-4.7)
 
 ---
 

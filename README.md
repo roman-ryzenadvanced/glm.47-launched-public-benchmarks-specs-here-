@@ -37,25 +37,25 @@ graph TD
     M --> C1[Claude Opus 4.5: 93.5%]
     M --> C2[Claude Sonnet 4.5: 87.0%]
     M --> Q1[Qwen-3 Coder: 89.3%]
-    M --> D1[DeepSeek-V3.2: 88.0%]
+    M --> D1[DeepSeek-V3.2: 96.0%]
     M --> M1[MiniMax 2.1: 78.0%]
     
     CO[Coding - LiveCode] --> G2{<b>GLM-4.7: 84.9%</b>}
     CO --> C3[Claude Opus 4.5: 64.0%]
     CO --> C4[Claude Sonnet 4.5: 64.0%]
     CO --> Q2[Qwen-3 Coder: 74.8%]
-    CO --> D2[DeepSeek-V3.2: 73.3%]
+    CO --> D2[DeepSeek-V3.2: 83.3%]
     
     S[Science - GPQA] --> G3{<b>GLM-4.7: 85.7%</b>}
     S --> C5[Claude Opus 4.5: 87.0%]
     S --> C6[Claude Sonnet 4.5: 83.4%]
-    S --> D3[DeepSeek-V3.2: 81.0%]
+    S --> D3[DeepSeek-V3.2: 80.3%]
     S --> M2[MiniMax 2.1: 78.0%]
     
     L[Logic - HLE w/Tools] --> G4{<b>GLM-4.7: 42.8%</b>}
     L --> C7[Claude Opus 4.5: 43.2%]
-    L --> C8[Claude Sonnet 4.5: 32.0%]
-    L --> D4[DeepSeek-V3.2: 27.2%]
+    L --> C8[Claude Sonnet 4.5: 28.0%]
+    L --> D4[DeepSeek-V3.2: 21.7%]
     L --> M3[MiniMax 2.1: 31.8%]
     end
     
@@ -72,11 +72,11 @@ graph TD
 
 | Category | Benchmark | **GLM-4.7** | Claude Opus 4.5 | Claude Sonnet 4.5 | GPT-5.1 | Qwen-3 Coder | DeepSeek-V3.2 | MiniMax 2.1 | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Math** | AIME 25 | $\color{green}{\textbf{95.7}}$ | 93.5 | 87.0 | 94.0 | 89.3 | 88.0 | 78.0 | [Z.ai Tech Report] • [Anthropic] • [Qwen Tech Report] • [Ollama] |
-| **Coding** | LiveCodeBench | 84.9 | 64.0 | 64.0 | $\color{green}{\textbf{87.0}}$ | 74.8 | 73.3 | N/A | [LiveCodeBench v6] • [Cursor IDE] • [Qwen Tech Report] • [Ollama] |
-| **Science** | GPQA-Diamond | 85.7 | 87.0 | 83.4 | $\color{green}{\textbf{88.1}}$ | N/A | 81.0 | 78.0 | [Official Zhipu AI] • [Anthropic] • [Vellum.ai] • [Ollama] |
-| **Logic** | HLE (w/ Tools) | 42.8 | $\color{green}{\textbf{43.2}}$ | 32.0 | 42.7 | N/A | 27.2 | 31.8 | [Humanity's Last Exam] • [Vellum.ai] • [Ollama] |
-| **Engineering** | SWE-bench (Verified) | 73.8% | $\color{green}{\textbf{80.9%}}$ | 77.2% | 74.9% | 69.6% | 67.8% | 69.4% | [SWE-bench 2025] • [Anthropic] • [Index.dev] • [Ollama] • [Hugging Face] |
+| **Math** | AIME 25 | $\color{green}{\textbf{95.7}}$ | 93.5 | 87.0 | 94.6 | 89.3 | $\color{green}{\textbf{96.0}}$ | 78.0 | [Z.ai Tech Report] • [Anthropic] • [Qwen Tech Report] • [Ollama] |
+| **Coding** | LiveCodeBench | 84.9 | 64.0 | 64.0 | $\color{green}{\textbf{87.0}}$ | 74.8 | 83.3 | N/A | [LiveCodeBench v6] • [Cursor IDE] • [Qwen Tech Report] • [Ollama] |
+| **Science** | GPQA-Diamond | 85.7 | 87.0 | 83.4 | $\color{green}{\textbf{88.1}}$ | N/A | 80.3 | 78.0 | [Official Zhipu AI] • [Anthropic] • [Vellum.ai] • [Ollama] |
+| **Logic** | HLE (w/ Tools) | 42.8 | $\color{green}{\textbf{43.2}}$ | 28.0 | 31.6 | N/A | 21.7 | 31.8 | [Humanity's Last Exam] • [Vellum.ai] • [Ollama] |
+| **Engineering** | SWE-bench (Verified) | 73.8% | $\color{green}{\textbf{80.9%}}$ | 77.2% | 74.9% | 69.6% | 73.1% | 69.4% | [SWE-bench 2025] • [Anthropic] • [Index.dev] • [Ollama] • [Hugging Face] |
 | **Agentic** | τ²-Bench | $\color{green}{\textbf{87.4%}}$ | N/A | 84.7 | 82.7% | N/A | 66.7 | 77.2 | [Official Z.AI] • [Ollama] • [Vellum.ai] |
 
 ---

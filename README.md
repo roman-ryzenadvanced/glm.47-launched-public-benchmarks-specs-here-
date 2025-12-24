@@ -30,24 +30,25 @@ GLM-4.7 doesn't just compete; it dominates the 2025 SOTA (State of the Art) benc
 ### 📊 Performance Visualization
 ```mermaid
 graph TD
-    subgraph Benchmarks
-    M[Math - AIME 25] --> G1[GLM-4.7: 95.7%]
+    subgraph "2025 SOTA Benchmark Comparison"
+    M[Math - AIME 25] --> G1{<b>GLM-4.7: 95.7%</b>}
     M --> C1[Claude 4.5: 88.5%]
     
-    CO[Coding - LiveCode] --> G2[GLM-4.7: 84.9%]
+    CO[Coding - LiveCode] --> G2{<b>GLM-4.7: 84.9%</b>}
     CO --> C2[Claude 4.5: 61.2%]
     
-    S[Science - GPQA] --> G3[GLM-4.7: 85.7%]
+    S[Science - GPQA] --> G3{<b>GLM-4.7: 85.7%</b>}
     S --> C3[Claude 4.5: 84.1%]
     
-    L[Logic - HLE] --> G4[GLM-4.7: 42.8%]
+    L[Logic - HLE] --> G4{<b>GLM-4.7: 42.8%</b>}
     L --> C4[Claude 4.5: 22.5%]
     end
     
-    style G1 fill:#00ff00,stroke:#333,stroke-width:2px
-    style G2 fill:#00ff00,stroke:#333,stroke-width:2px
-    style G3 fill:#00ff00,stroke:#333,stroke-width:2px
-    style G4 fill:#00ff00,stroke:#333,stroke-width:2px
+    classDef glmNode fill:#00c853,stroke:#1b5e20,stroke-width:3px,color:#ffffff,font-weight:bold,font-size:14px
+    classDef rivalNode fill:#f1f8e9,stroke:#c5e1a5,stroke-width:1px,color:#558b2f
+    
+    class G1,G2,G3,G4 glmNode
+    class C1,C2,C3,C4 rivalNode
 ```
 
 | Category | Benchmark | **GLM-4.7** | Claude 4.5 | Gemini 3 Pro | Winner |
@@ -80,9 +81,9 @@ If a $3 model can perform 90% of the tasks that a $200 model can, the justificat
 
 ### 🔄 The ROI Shift
 ```mermaid
-pie title Cost Comparison (Yearly)
-    "Western Incumbents ($200+)" : 200
-    "GLM-4.7 Ecosystem (~$10)" : 10
+pie title "Yearly Subscription Cost (USD)"
+    "Western Giants (Cursor/Copilot/Claude) : $200+" : 200
+    "GLM-4.7 Powered Ecosystem (Z.AI) : ~$10" : 10
 ```
 
 ---
@@ -140,7 +141,7 @@ GLM-4.7 is natively compatible with the most advanced coding environments:
 
 ---
 
-## � Special Christmas Offer
+## 🎄 Special Christmas Offer
 
 Don't miss out on the AI Coding Revolution. Get the most powerful model for the lowest price!
 

@@ -141,6 +141,9 @@ All data presented in this article is derived from the [Z.ai Official Technical 
 ## 🔗 Source Links
 - [Z.ai Tech Report](https://z.ai/blog/glm-4.7)
 - [HuggingFace Model Card](https://huggingface.co/zai-org/GLM-4.7)
+- [Ollama Library](https://ollama.com/library/glm-4.7)
+- [LLM-Stats Analysis](https://llm-stats.com/models/glm-4.7)
+- [Vertu: GLM-4.7 vs Claude Opus 4.5](https://vertu.com/lifestyle/glm-4-7-vs-claude-opus-4-5-the-thinking-open-source-challenger/)
 
 ---
 
